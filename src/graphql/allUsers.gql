@@ -1,0 +1,12 @@
+query allUsers {
+  users {
+    data {
+      id,
+      name,
+      email,
+      company {
+        name
+      }
+    }
+  }
+}

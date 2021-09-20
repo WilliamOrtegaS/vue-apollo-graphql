@@ -38,6 +38,11 @@
     </v-app-bar>
 
     <v-main>
+      <div class="justify-center text-center">
+        <v-btn color="primary" class="ma-3" :to="{ path: '/'}">Home</v-btn>
+        <v-btn color="primary" class="ma-3" :to="{ path: '/users'}">Usuarios</v-btn>
+        <v-btn color="primary" class="ma-3" :to="{ path: '/usersApollo'}">Usuarios Apollo</v-btn>
+      </div>
       <router-view/>
     </v-main>
   </v-app>

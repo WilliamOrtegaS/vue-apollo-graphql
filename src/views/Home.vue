@@ -1,5 +1,5 @@
 <template>
-  <hello-world />
+  <hello-world v-show="false"/>
 </template>
 
 <script>
