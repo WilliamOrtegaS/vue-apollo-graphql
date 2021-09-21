@@ -42,6 +42,7 @@
         <v-btn color="primary" class="ma-3" :to="{ path: '/'}">Home</v-btn>
         <v-btn color="primary" class="ma-3" :to="{ path: '/users'}">Usuarios</v-btn>
         <v-btn color="primary" class="ma-3" :to="{ path: '/usersApollo'}">Usuarios Apollo</v-btn>
+        <v-btn color="primary" class="ma-3" :to="{ path: '/postApollo'}">Post Apollo</v-btn>
       </div>
       <router-view/>
     </v-main>

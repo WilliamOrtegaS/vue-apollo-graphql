@@ -21,6 +21,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/UsersApollo.vue')
   },
   {
+    path: '/postApollo',
+    name: 'PostApollo',
+    component: () => import(/* webpackChunkName: "about" */ '../views/PostApollo.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
