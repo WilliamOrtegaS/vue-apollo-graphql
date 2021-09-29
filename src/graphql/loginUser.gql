@@ -1,0 +1,8 @@
+mutation (
+  $email: String!,
+  $password: String!
+) {
+    id,
+    name,
+    token
+}
