@@ -45,6 +45,7 @@
         <v-btn color="primary" class="ma-3" :to="{ path: '/postApollo'}">Post Apollo</v-btn>
         <v-btn color="primary" class="ma-3" :to="{ path: '/postApollo'}">Post Apollo</v-btn>
         <v-btn color="primary" class="ma-3" :to="{ path: '/login'}">Login</v-btn>
+        <v-btn color="primary" class="ma-3" :to="{ path: '/userComposable'}">Usuarios Composable</v-btn>
       </div>
       <router-view/>
     </v-main>
